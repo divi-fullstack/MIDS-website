@@ -1,32 +1,27 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-
+import logo from "../static/images/logo.png"
+import 'bootstrap/dist/css/bootstrap.min.css';
 const Header = ({ siteTitle }) => (
   <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
+   
   >
     <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
+    className="container-fluid pt-3 pb-3 pl-5 pr-5"
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
+     <button className="header-menu"></button>
+       <Link
           to="/"
+          className="main-logo"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+         <img src={logo} alt="logo"/>
         </Link>
-      </h1>
+     
     </div>
   </header>
 )
