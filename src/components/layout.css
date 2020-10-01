@@ -689,3 +689,75 @@ button.header-menu:after{
   padding: 85px 0;
   margin-bottom: 40px;
 }
+
+.portfolio {}
+
+.portfolio .image-portfolio {
+    padding-top: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio  .pcontent-wrapper {
+    padding: 30px;
+    background: #ffffff;
+}
+
+.portfolio .pcontent-wrapper h4 {
+    font-size: 21px;
+}
+
+.portfolio .pcontent-wrapper p {
+    font-size: 15px;
+    color: #444444;
+}
+
+.learn-more {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none!important;
+}
+
+.learn-more:hover {
+    text-shadow: 0px 0px #000000;
+    font-weight: 600;
+}
+.learn-more {
+  padding: 0;
+}
+
+
+
+.learn-more span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 26px;
+  position: relative;
+  top: -6px;
+}
+.portfolio>.row {
+  box-shadow: 0 4px 4px 0px #00000042;
+}
+
+.portfolio {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+@media only screen and  (min-width:768px){
+  .expended-container {
+    padding: 20px 40px;
+}
+}
+
+.portfolio {
+  border: 2px solid transparent;
+}
+
+.portfolio:hover {
+  border-color: #2b5bcf;
+}
